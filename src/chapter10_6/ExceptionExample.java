@@ -12,10 +12,12 @@ public class ExceptionExample {
 			System.out.println("処理が正常に行われました");
 		}
 		catch(ArithmeticException e) {
+//			割る数(bの値)が0になった時の例外
 			System.out.println("Arithmetic型の例外をキャッチしました");
 			System.out.println(e);
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
+//			index番号(bの値)が配列の要素数(5)以上になった時の例外
 			System.out.println("ArrayIndexOutOfBoundsException型の例外をキャッチしました");
 			System.out.println(e);
 		}
