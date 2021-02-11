@@ -14,5 +14,9 @@ public class MathExample {
 		System.out.println("半径２の円の面積は" + 2 * 2 * Math.PI);
 		System.out.println(Math.PI);
 		System.out.println("=====================================");
+
+		System.out.println("他のパッケージ内のpublicクラスを使用するため、パッケージ名.クラス名で宣言");
+		mypackage.MyClass m = new mypackage.MyClass();
+		m.printMessage();
 	}
 }
