@@ -17,6 +17,5 @@ public class ArrayListExample {
 		System.out.println(months.get(0));
 		System.out.println(months.get(1));
 		System.out.println(months.get(2));
-		System.out.println(months.get(3));
 	}
 }
