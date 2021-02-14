@@ -16,7 +16,8 @@ public class StachExample {
 //		addLastもofferもQueueインターフェースの末尾に値を入れるメソッド
 		System.out.println("============================");
 		while(!stack.isEmpty()) {
-			System.out.println("要素の取り出し：" + stack.poll());
+			System.out.println("要素の取り出し：" + stack.removeLast());
+//			pollメソッドと異なり、末尾から値を取り出す
 			System.out.println("スタックの状態：" + stack);
 		}
 	}
