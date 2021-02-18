@@ -20,6 +20,6 @@ public class ColorLIst {
 		System.out.println("colorLIst1をset()でindex番号0の値を変更");
 		System.out.println("colorList1：" + colorList1);
 		System.out.println("colorList2：" + colorList2);
-		System.out.println("colorList2は変更の影響を受けない");
+		System.out.println("clone()メソッドで作成されたcolorList2は変更の影響を受けない");
 	}
 }
