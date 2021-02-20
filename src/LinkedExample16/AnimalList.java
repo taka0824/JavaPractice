@@ -14,8 +14,19 @@ public class AnimalList {
 		System.out.println(animalList);
 		
 		Collections.shuffle(animalList);
-		System.out.println(animalList);
+		System.out.println("animalList:" + animalList);
 		
+		List<String> animalList2 = new LinkedList<>();
+		animalList2.add("elephant");
+		animalList2.add("frog");
+		animalList2.add("fish");
+		System.out.println("animalList:" + animalList2);
+		
+		animalList.addAll(animalList2);
+		System.out.println("animalList:" + animalList);
+		
+		animalList.addAll(1, animalList);
+		System.out.println("animalList:" + animalList);
 	}
 
 }
