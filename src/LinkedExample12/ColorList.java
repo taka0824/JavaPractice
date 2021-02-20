@@ -26,13 +26,5 @@ public class ColorList {
 		
 		colorList.removeFirst();
 		System.out.println("removeFirst:" + colorList);
-		
-		LinkedList<String> list = new LinkedList<>();
-		list.add("white");
-		list.offer("red");
-		System.out.println("list:" + list);
-		
-		System.out.println(colorList.remove("white"));
-		System.out.println(colorList);
 	}
 }
