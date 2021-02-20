@@ -20,13 +20,15 @@ public class AnimalList {
 		animalList2.add("elephant");
 		animalList2.add("frog");
 		animalList2.add("fish");
-		System.out.println("animalList:" + animalList2);
+		System.out.println("animalList2:" + animalList2);
 		
 		animalList.addAll(animalList2);
-		System.out.println("animalList:" + animalList);
+		System.out.println("animalList-added:" + animalList);
 		
-		animalList.addAll(1, animalList);
-		System.out.println("animalList:" + animalList);
+		animalList2.set(0, "goldenfish");
+		
+		System.out.println("animalList-added-set" + animalList);
+		System.out.println(animalList2);
 	}
 
 }
